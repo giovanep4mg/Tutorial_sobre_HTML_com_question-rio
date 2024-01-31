@@ -1,0 +1,53 @@
+/*  */
+@media screen and (max-width: 2561px) {
+    html, body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0em;
+        padding: 0em;
+        width: -webkit-fill-available;
+        border: 1px solid;
+        height: -webkit-fill-available;
+    
+        background-image: url("./imagens-icons/html-5.png");
+        background-size: 70%;
+        background-repeat: no-repeat;
+
+        body{
+            
+    
+            .container-titulo{
+    
+                .titulo{
+                    font-size: 15em;
+                    text-align: center;
+                }
+            }
+            
+            .container-boa{
+    
+                .subtitulo{
+    
+                }
+            }
+            .container-link-entrar{
+    
+                .link-entrar{
+    
+                }
+            }
+            .container-redes{
+    
+                .link-facebook{
+    
+                }
+            }
+            .container-footer{
+    
+                .copyrigth{
+    
+                }
+            }
+        }
+    
+    }
+}
