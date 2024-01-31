@@ -1,0 +1,184 @@
+/* Responsividade */
+@media screen and (max-width: 2561px) {
+    html,body{
+        margin: 0em;
+        padding: 0em;
+        width: 100%;
+        padding-bottom: 5em;
+    }
+    
+    body{
+        background-color: rgba(46, 157, 209, 0.212);
+        box-sizing: border-box;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    .container_titulo{
+    
+        margin: 0em;
+        padding: 0em;
+    
+        .titulo_principal{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 7em;
+            text-align: center;
+        }
+    
+    }
+    
+    .container_parte1{
+        padding-top: 0em;
+        padding: 0.5em;
+    
+        .descricao-parte1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2em;
+            padding: 1em;
+        }
+    
+    }
+    
+    .secao{
+        margin: 0em;
+        padding: 3.5em;
+        padding-top: 0em;
+    
+        
+        .container_subtitulo{
+            margin: 0em;
+            padding: 0em;
+    
+            .subtitulo{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 5.3em;
+            }
+        }
+        .descricao{
+            font-family: sans-serif;
+            font-size: 2.5em;
+        }
+        .container_imagem{
+            width: -webkit-fill-available;
+        }
+        .imagem{
+            width: 50%;
+    
+        }
+    }
+
+    .secao-avaliacao{
+        
+        .container_subtitulo-avaliacao{
+                
+            font-family: cursive;
+            font-size: 5em;
+            text-align: center;
+
+            .subtitulo-avaliacao{
+                margin: 0em;
+            }
+        }
+        
+        .descricao-avaliacao{
+            font-size: 4.5em;
+            text-align: center;
+        }
+        .container_link-avaliacao{
+            margin: 0em;
+            text-align: center;
+            font-size: 5em;
+        }
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    html,body{
+        margin: 0em;
+        padding: 0em;
+        width: 100%;
+        padding-bottom: 5em;
+    }
+    
+    body{
+        background-color: rgba(46, 157, 209, 0.212);
+        box-sizing: border-box;
+    }
+    
+    .detalhe{
+        color: red;
+    }
+    
+    .container_titulo{
+    
+        margin: 0em;
+        padding: 0em;
+    
+        .titulo_principal{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 4em;
+            text-align: center;
+        }
+    
+    }
+    
+    .container_parte1{
+        padding-top: 0em;
+        padding: 0.5em;
+    
+        .descricao-parte1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1em;
+            padding: 1em;
+        }
+    
+    }
+    
+    .secao{
+        margin: 0em;
+        padding: 2em;
+        padding-top: 0em;
+    
+        
+        .container_subtitulo{
+            margin: 0em;
+            padding: 0em;
+    
+            .subtitulo{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 2.3em;
+            }
+        }
+        .descricao{
+            font-family: sans-serif;
+            font-size: 1.3em;
+        }
+        .container_imagem{
+            width: -webkit-fill-available;
+        }
+        .imagem{
+            width: 55%;
+    
+        }
+    }
+
+    .secao-avaliacao{
+        
+        .container_subtitulo-avaliacao{
+            padding-top: 1em;
+            font-size: 2.5em;
+
+            .subtitulo-avaliacao{
+
+            }
+        }
+        .descricao-avaliacao{
+            font-size: 2em;
+        }
+        .container_link-avaliacao{
+            font-size: 3.2em;
+        }
+    }
+}
