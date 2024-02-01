@@ -44,7 +44,7 @@
                     font-size: 4em;
                     text-align: center;
                 }
-            }
+            
             .container-link-entrar{
                 text-align: center;
                 background: #dec128d4;
@@ -120,5 +120,117 @@
             }
         }
     
-    }
-}
+    } /* fim html */
+} /* fim media screen */
+
+/*  */
+@media screen and (max-width: 1441px) {
+    html{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0em;
+        padding: 0em;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+
+        body{
+            padding-top: 0em;
+    
+            .container-titulo{
+                margin-top: 0em;
+                padding: 0em;
+
+                .imagem-logo{
+                    padding-left: 0em;
+                    margin: 0em;
+                }
+                .imagem-logo-inicio{
+                    width: 70%;
+                }
+    
+                .titulo{
+                    font-size: 6em;
+                    padding-left: 0em;
+                }
+            }
+            
+            .container-boa{
+                width: -webkit-fill-available;
+                margin: 0em;
+                padding: 5.3em;
+                padding-top: 0.2em;
+                background: #4ad21e4a;
+                border-radius: 10% 10% 10% 10%;
+                padding-bottom: 0em;
+            }
+    
+                .subtitulo{
+                    font-size: 2em;
+                }
+            
+            .container-link-entrar{
+                text-align: center;
+                background: #dec128d4;
+                padding: 5em;
+                border-radius: 22% 85% 25% 90%;
+
+                .link-entrar{
+                    font-size: 3em;
+                }
+            }
+            .container-redes{
+                margin: 0em;
+                padding: 1.3em;
+
+                .contato-redes-sociais{
+                    font-size: 3.2em;
+                    padding-left: 1em;
+                }
+                .container-logos{
+                    padding-left: 35em;
+
+                    .link-facebook{
+                        
+                        .logo-facebook{
+                            width: 30%;
+                        }
+                        .logo-facebook:hover{
+                            width: 35%;
+                            border-radius: 52% 52% 52% 52%;
+                        }
+                        
+                    }
+                    .link-instagram{
+
+                        .logo-instagram{
+                            width: 30%;
+                        }
+                        .logo-instagram:hover{
+                            width: 35%;
+                            border-radius: 52% 52% 52% 52%;
+                        }
+                    }
+                    .link-linkedin{
+
+                        .logo-linkedin{
+                            width: 30%;
+                        }
+                        .logo-linkedin:hover{
+                            width: 35%;
+                            border-radius: 52% 52% 52% 52%;
+                        }
+                    }
+                }
+
+            }
+            .container-footer{
+                margin: 0em;
+                padding: 1.3em;
+    
+                .copyrigth{
+                    font-size: 2.5em;
+                }
+            }
+        }
+    
+    } /* fim html */
+} /* fim media screen */
