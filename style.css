@@ -6,8 +6,6 @@
         padding: 0em;
         width: -webkit-fill-available;
         height: -webkit-fill-available;
-        background-image: url(./imagens-icons/html-5\ \(1\).png);
-        background-repeat: repeat-x;
 
         body{
             box-sizing: border-box;
@@ -15,19 +13,31 @@
             padding-top: 1em;
     
             .container-titulo{
-                margin-top: -9em;
+                margin-top: 0em;
+                display: flex;
+                align-items: center;
+                padding: 1em;
+
+                .imagem-logo{
+                    font-size: 11em;
+                    padding-left: 1em;
+                }
     
                 .titulo{
-                    font-size: 15em;
-                    text-align: center;
-                    padding-top: 2em;
+                    font-size: 11em;
+                    padding-left: 1em;
                 }
             }
             
             .container-boa{
+                width: -webkit-fill-available;
                 margin: 0em;
-                padding: 4.3em;
-                padding-top: 0em;
+                padding: 5.3em;
+                padding-top: 0.2em;
+                background: #4ad21e4a;
+                border-radius: 10% 10% 10% 10%;
+                padding-bottom: 0em;
+            }
     
                 .subtitulo{
                     font-family: cursive;
@@ -37,6 +47,9 @@
             }
             .container-link-entrar{
                 text-align: center;
+                background: #dec128d4;
+                padding: 5em;
+                border-radius: 22% 85% 25% 90%;
 
                 .link-entrar{
                     font-family: fantasy;
@@ -53,11 +66,46 @@
                     padding-left: 1em;
                     text-decoration: underline;
                 }
+                .container-logos{
+                    display: flex;
+                    padding-left: 35em;
 
-                .link-facebook{
-                    font-family: sans-serif;
-                    font-size: 4em;
+                    .link-facebook{
+                        
+                        .logo-facebook{
+                            width: 30%;
+                        }
+                        .logo-facebook:hover{
+                            width: 35%;
+                            border: 25px solid #dec129;
+                            border-radius: 52% 52% 52% 52%;
+                        }
+                        
+                    }
+                    .link-instagram{
+
+                        .logo-instagram{
+                            width: 30%;
+                        }
+                        .logo-instagram:hover{
+                            width: 35%;
+                            border: 25px solid #dec129;
+                            border-radius: 52% 52% 52% 52%;
+                        }
+                    }
+                    .link-linkedin{
+
+                        .logo-linkedin{
+                            width: 30%;
+                        }
+                        .logo-linkedin:hover{
+                            width: 35%;
+                            border: 25px solid #dec129;
+                            border-radius: 52% 52% 52% 52%;
+                        }
+                    }
                 }
+
             }
             .container-footer{
                 margin: 0em;
