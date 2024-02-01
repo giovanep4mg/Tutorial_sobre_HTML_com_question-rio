@@ -1,50 +1,73 @@
 /*  */
 @media screen and (max-width: 2561px) {
-    html, body{
+    html{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin: 0em;
         padding: 0em;
         width: -webkit-fill-available;
-        border: 1px solid;
         height: -webkit-fill-available;
-    
-        background-image: url("./imagens-icons/html-5.png");
-        background-size: 70%;
-        background-repeat: no-repeat;
+        background-image: url(./imagens-icons/html-5\ \(1\).png);
+        background-repeat: repeat-x;
 
         body{
-            
+            box-sizing: border-box;
+            background-color: #00bcd41f;
+            padding-top: 1em;
     
             .container-titulo{
+                margin-top: -9em;
     
                 .titulo{
                     font-size: 15em;
                     text-align: center;
+                    padding-top: 2em;
                 }
             }
             
             .container-boa{
+                margin: 0em;
+                padding: 4.3em;
+                padding-top: 0em;
     
                 .subtitulo{
-    
+                    font-family: cursive;
+                    font-size: 4em;
+                    text-align: center;
                 }
             }
             .container-link-entrar{
-    
+                text-align: center;
+
                 .link-entrar{
-    
+                    font-family: fantasy;
+                    font-size: 5em;
                 }
             }
             .container-redes{
-    
+                margin: 0em;
+                padding: 1.3em;
+
+                .contato-redes-sociais{
+                    font-family: math;
+                    font-size: 4em;
+                    padding-left: 1em;
+                    text-decoration: underline;
+                }
+
                 .link-facebook{
-    
+                    font-family: sans-serif;
+                    font-size: 4em;
                 }
             }
             .container-footer{
+                margin: 0em;
+                padding: 1.3em;
     
                 .copyrigth{
-    
+                    text-align: center;
+                    font-family: fangsong;
+                    font-size: 4em;
+                    padding-bottom: 2em;
                 }
             }
         }
