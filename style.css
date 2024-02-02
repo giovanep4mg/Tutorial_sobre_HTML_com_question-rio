@@ -126,9 +126,6 @@
 /*  */
 @media screen and (max-width: 1441px) {
     html{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: 0em;
-        padding: 0em;
         width: -webkit-fill-available;
         height: -webkit-fill-available;
 
