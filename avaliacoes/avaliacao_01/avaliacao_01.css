@@ -16,7 +16,7 @@
   }
 
   body {
-    background: #cfb82d38;
+    background: #bcbba791;
     padding: 4em;
   }
   /* container titulo e instruções */
@@ -33,7 +33,7 @@
 
   .instrucoes {
     margin: 0em;
-    color: blue;
+    color: rgba(0, 0, 255, 0.709);
   }
   .descricao-instruçao {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -258,3 +258,78 @@
     display: none;
   }
 } /* fim html */
+
+/*  */
+@media screen and (max-width: 1025px) {
+    html,
+    body {
+      padding-bottom: 1em;
+    }
+  
+    body {
+      padding: 2.5em;
+    }
+  
+    /* container titulo e instruções */
+    
+    .titulo {
+      font-size: 6em;
+    }
+  
+    .descricao-instruçao{
+      font-size: 2.4em;
+    }
+  
+    /* toda página pos titulo */
+    .toda-avaliacao {
+      padding: 0em;
+    }
+    
+    .pergunta {
+      font-size: 2.5em;
+    }
+  
+    .lista-secundaria {
+        font-size: 1.8em;
+        line-height: 2.1em;
+    }
+    
+    .texto-resposta {
+      font-size: 1em;
+    }
+  
+    .entrada {
+        margin-left: 0.3em;
+    }
+  
+    
+    .descricao-instruçao2 {
+      font-size: 2.5em;
+    }
+  
+    .container_resultado {
+      margin-left: 0em;
+    }
+    .botao {
+        width: 50%;
+        font-size: 2em;
+        padding: 0.5em;
+    }
+    .resultado {
+        font-size: 2.5em;
+        padding: 0.3em;
+    }
+  
+    .container-resultado-final {
+        padding: 0.9em;
+    }
+    .texto-parabens {
+      font-size: 3.em;
+    }
+  
+    .link-resultado-final {
+        padding: 0.8em;
+        font-size: 4.5em;
+    }
+  } /* fim html */
+  
