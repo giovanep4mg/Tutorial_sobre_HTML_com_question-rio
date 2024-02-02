@@ -1,187 +1,174 @@
 /* Responsividade */
 @media screen and (max-width: 2561px) {
-    html,body{
-        margin: 0em;
-        padding: 0em;
-        width: 100%;
-        padding-bottom: 1em;
-    }
-    
-    body{
-        background-color: rgba(46, 157, 209, 0.212);
-        box-sizing: border-box;
-    }
-    
-    .detalhe{
-        color: red;
-    }
-    
-    .container_titulo{
-        margin: 0em;
-        padding: 0em;
-        display: flex;
-        align-items: center;
-        padding-top: 4em;
-        padding-left: 5em;
+  html,
+  body {
+    margin: 0em;
+    padding: 0em;
+    width: 100%;
+    padding-bottom: 1em;
+  }
 
-        .container-imagem-icon{
+  body {
+    background-color: rgba(46, 157, 209, 0.212);
+    box-sizing: border-box;
+  }
 
-            .imagem-icon{
+  .detalhe {
+    color: red;
+  }
 
-            }
-        }
-    
-        .titulo_principal{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 8em;
-            text-align: center;
-        }
-        
-    
-    }
-    
-    .container_parte1{
-        padding-top: 0em;
-        padding: 0.5em;
-    
-        .descricao-parte1{
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 2em;
-            padding: 1em;
-        }
-    
-    }
-    
-    .secao{
-        margin: 0em;
-        padding: 3.5em;
-        padding-top: 0em;
-    
-        
-        .container_subtitulo{
-            margin: 0em;
-            padding: 0em;
-    
-            .subtitulo{
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                font-size: 5.3em;
-            }
-        }
-        .descricao{
-            font-family: sans-serif;
-            font-size: 2.5em;
-        }
-        .container_imagem{
-            width: -webkit-fill-available;
-        }
-        .imagem{
-            width: 43%;
-    
-        }
-    }
+  .container_titulo {
+    margin: 0em;
+    padding: 0em;
+    display: flex;
+    align-items: center;
+    padding-top: 4em;
+    padding-left: 5em;
+  }
+  .container-imagem-icon {
+  }
 
-    .secao-avaliacao{
-        border: 18px solid red;
-        width: 90%;
-        margin-left: 6em;
-        
-        .container_subtitulo-avaliacao{
-                
-            font-family: cursive;
-            font-size: 5em;
-            text-align: center;
+  .imagem-icon {
+  }
 
-            .subtitulo-avaliacao{
-                margin: 0em;
-            }
-        }
-        
-        .descricao-avaliacao{
-            font-size: 4.5em;
-            text-align: center;
-        }
-        .container_link-avaliacao{
-            margin: 0em;
-            text-align: center;
-            font-size: 5em;
-            
-            padding-bottom: 1.3em;
-        }
-    }
+  .titulo_principal {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 8em;
+    text-align: center;
+  }
+
+  .container_parte1 {
+    padding-top: 0em;
+    padding: 0.5em;
+  }
+  .descricao-parte1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    padding: 1em;
+  }
+
+  .secao {
+    margin: 0em;
+    padding: 3.5em;
+    padding-top: 0em;
+  }
+
+  .container_subtitulo {
+    margin: 0em;
+    padding: 0em;
+  }
+  .subtitulo {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5.3em;
+  }
+
+  .descricao {
+    font-family: sans-serif;
+    font-size: 2.5em;
+  }
+  .container_imagem {
+    width: -webkit-fill-available;
+  }
+  .imagem {
+    width: 43%;
+  }
+
+  .secao-avaliacao {
+    border: 18px solid red;
+    width: 90%;
+    margin-left: 6em;
+  }
+  .container_subtitulo-avaliacao {
+    font-family: cursive;
+    font-size: 5em;
+    text-align: center;
+  }
+  .subtitulo-avaliacao {
+    margin: 0em;
+  }
+
+  .descricao-avaliacao {
+    font-size: 4.5em;
+    text-align: center;
+  }
+  .container_link-avaliacao {
+    margin: 0em;
+    text-align: center;
+    font-size: 5em;
+
+    padding-bottom: 1.3em;
+  }
 }
 
 @media screen and (max-width: 1441px) {
+  .container_titulo {
+    padding-top: 0em;
+    padding-left: 1em;
+  }
+  .container-imagem-icon {
+    margin-right: -10em;
+  }
+  .imagem-icon {
+    width: 45%;
+    padding-top: 2em;
+  }
 
-    .container_titulo {
-        padding-top: 0em;
-        padding-left: 1em;
+  .titulo_principal {
+    font-size: 5em;
+  }
 
-        .container-imagem-icon{
-            margin-right: -10em;
-    
-            .imagem-icon{
-                width: 45%;
-                padding-top: 2em;
-            }
-        }
+  .container_parte1 {
+    padding: 0.5em;
+  }
+  .descricao-parte1 {
+    font-size: 1.3em;
+  }
 
-        .titulo_principal{
-            font-size: 5em;
-        }   
-    }
-    
-    .container_parte1{
-        padding: 0.5em;
-    
-        .descricao-parte1{
-            font-size: 1.3em;
-        }
-    
-    }
-    
-    .secao{
-        margin: 0em;
-        padding: 2em;
-        padding-top: 0em;
-    
-        
-        .container_subtitulo{
-            padding: 0.1em;
-    
-            .subtitulo{
-                font-size: 2.8em;
-            }
-        }
-        .descricao{
-            font-size: 1.8em;
-        }
-        .container_imagem{
-            width: -webkit-fill-available;
-        }
-        .imagem{
-            width: 50%;
-    
-        }
-    }
+  .secao {
+    margin: 0em;
+    padding: 2em;
+    padding-top: 0em;
+  }
 
-    .secao-avaliacao{
-        border: 15px solid red;
-        margin-left: 3.5em;
-        
-        .container_subtitulo-avaliacao{
-            padding-top: 1em;
-            font-size: 2.5em;
+  .container_subtitulo {
+    padding: 0.1em;
+  }
+  .subtitulo {
+    font-size: 2.8em;
+  }
 
-            .subtitulo-avaliacao{
-                color: chocolate;
-            }
-        }
-        .descricao-avaliacao{
-            font-size: 2.5em;
-        }
-        .container_link-avaliacao{
-            font-size: 4em;
-            padding-bottom: 1em;
-        }
-    }
+  .descricao {
+    font-size: 1.8em;
+  }
+
+  .container_imagem {
+    width: -webkit-fill-available;
+  }
+
+  .imagem {
+    width: 50%;
+  }
+
+  .secao-avaliacao {
+    border: 15px solid red;
+    margin-left: 3.5em;
+  }
+
+  .container_subtitulo-avaliacao {
+    padding-top: 1em;
+    font-size: 2.5em;
+  }
+
+  .subtitulo-avaliacao {
+    color: chocolate;
+  }
+
+  .descricao-avaliacao {
+    font-size: 2.5em;
+  }
+
+  .container_link-avaliacao {
+    font-size: 4em;
+    padding-bottom: 1em;
+  }
 }
