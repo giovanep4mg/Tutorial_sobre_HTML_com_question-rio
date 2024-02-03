@@ -333,3 +333,78 @@
     }
   } /* fim html */
   
+/*  */
+@media screen and (max-width: 769px) {
+  html,
+  body {
+    padding-bottom: 1em;
+  }
+
+  body {
+    padding: 2.5em;
+  }
+
+  /* container titulo e instruções */
+  .titulo {
+    font-size: 5em;
+  }
+
+  .descricao-instruçao{
+    font-size: 1.8em;
+    text-align: justify;
+    padding: 0em;
+    padding-top: 1em;
+  }
+
+  /* toda página pos titulo */
+  .toda-avaliacao {
+    padding: 0em;
+  }
+  
+  .pergunta {
+    font-size: 2.2em;
+  }
+
+  .lista-secundaria {
+    font-size: 1.4em;
+    line-height: 2.5em;
+  }
+  
+  .texto-resposta {
+    font-size: 1.2em;
+  }
+
+  .entrada {
+      margin-left: 0.3em;
+  }
+
+  
+  .descricao-instruçao2 {
+    font-size: 2em;
+  }
+
+  .container_resultado {
+    margin-left: 0em;
+  }
+  .botao {
+    width: 40%;
+    font-size: 1.8em;
+    padding: 0.5em;
+  }
+  .resultado {
+      font-size: 2em;
+  }
+
+  .container-resultado-final {
+      padding: 1em;
+  }
+  .texto-parabens {
+    font-size: 2.5em;
+  }
+
+  .link-resultado-final {
+    padding: 0em;
+    font-size: 3.5em;
+    padding-top: 0.8em;
+  }
+} /* fim html */
