@@ -482,3 +482,75 @@
     padding-top: 0.8em;
   }
 } /* fim html */
+
+/*  */
+@media screen and (max-width: 376px) {
+  html,
+  body {
+    padding-bottom: 1em;
+  }
+
+  body {
+    padding: 1.5em;
+  }
+
+  /* container titulo e instruções */
+  .titulo {
+    font-size: 2.6em;
+  }
+
+  .descricao-instruçao{
+    font-size: 1.2em;
+  }
+
+  /* toda página pos titulo */
+  .toda-avaliacao {
+    padding: 0em;
+  }
+  
+  .pergunta {
+    font-size: 1.5em;
+  }
+
+  .lista-secundaria {
+    font-size: 1.2em;
+    line-height: 2.1em;
+  }
+  
+  .texto-resposta {
+    font-size: 0.9em;
+  }
+
+  .entrada {
+      margin-left: 0.3em;
+      width: 25%;
+  }
+
+  
+  .descricao-instruçao2 {
+    font-size: 1.3em;
+  }
+
+  .container_resultado {
+    margin-left: 0em;
+  }
+  .botao {
+    width: 80%;
+    font-size: 1.1em;
+    padding: 0.6em;
+  }
+  .resultado {
+      font-size: 1.2em;
+  }
+
+  .container-resultado-final {
+      padding: 1em;
+  }
+  .texto-parabens {
+    font-size: 1.5em;
+  }
+
+  .link-resultado-final {
+    font-size: 2em;
+  }
+} /* fim html */
