@@ -138,6 +138,7 @@
     color: black;
     font-size: 6.4em;
     color: #230101;
+    text-align: center;
   }
 
   .link-resultado-final {
@@ -405,6 +406,79 @@
   .link-resultado-final {
     padding: 0em;
     font-size: 3.5em;
+    padding-top: 0.8em;
+  }
+} /* fim html */
+
+/*  */
+@media screen and (max-width: 426px) {
+  html,
+  body {
+    padding-bottom: 1em;
+  }
+
+  body {
+    padding: 2.5em;
+  }
+
+  /* container titulo e instruções */
+  .titulo {
+    font-size: 3em;
+  }
+
+  .descricao-instruçao{
+    font-size: 1.5em;
+  }
+
+  /* toda página pos titulo */
+  .toda-avaliacao {
+    padding: 0em;
+  }
+  
+  .pergunta {
+    font-size: 1.8em;
+  }
+
+  .lista-secundaria {
+    font-size: 1.3em;
+    line-height: 2.2em;
+  }
+  
+  .texto-resposta {
+    font-size: 0.9em;
+  }
+
+  .entrada {
+      margin-left: 0.3em;
+      width: 25%;
+  }
+
+  
+  .descricao-instruçao2 {
+    font-size: 1.5em;
+  }
+
+  .container_resultado {
+    margin-left: 0em;
+  }
+  .botao {
+    width: 75%;
+    font-size: 1.3em;
+    padding: 0.8em;
+  }
+  .resultado {
+      font-size: 1.3em;
+  }
+
+  .container-resultado-final {
+      padding: 1em;
+  }
+  .texto-parabens {
+    font-size: 2em;
+  }
+
+  .link-resultado-final {
+    font-size: 2.5em;
     padding-top: 0.8em;
   }
 } /* fim html */
