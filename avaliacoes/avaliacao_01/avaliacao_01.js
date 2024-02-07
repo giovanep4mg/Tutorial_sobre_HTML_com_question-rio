@@ -1,6 +1,7 @@
 
 
 function verificarRespostas() {
+    // precisa deixar em zero para fazer a contagem correta
     var pontuacao = 10;
 
     // Array contendo as respostas corretas
@@ -25,9 +26,14 @@ function verificarRespostas() {
         alert("Parabéns, você passou!!");
         // Mostra o link se a pontuação for maior ou igual a 7
         document.getElementById('linkResultado').style.display = 'block';
+        // mostra o texto se a pontuação for maior ou igual a 7
+        document.getElementById('texto-parabens').style.display = 'block';
     } else {
         alert("Infelizmente sua nota foi menor que 7, terá que refazer a avaliação!");
         // Oculta o link se a pontuação for menor que 7
         document.getElementById('linkResultado').style.display = 'none';
+        // exibir a mensagem que foi reprovado
+        document.getElementById('texto-reprovado').style.display = 'block';
+
     }
 }
